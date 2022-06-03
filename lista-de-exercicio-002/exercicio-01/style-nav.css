@@ -1,0 +1,50 @@
+*{margin:0; padding:0; font-size: 100%; border: none;outline: none;font-family: "JetBrains Mono";}
+*{text-decoration: none;}
+
+
+/* Barra de navegacao */
+.nav {
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.nav ul {
+    list-style: none;
+    margin: 5px;
+    padding:5px;
+}
+
+.nav li {
+    float: left;
+    margin: 5px;
+    padding:1px
+}
+.nav li a {
+    color: white;
+    text-shadow: transparent;
+    font-size:23px;
+}
+
+.nav li a:hover {
+    color: transparent;
+    font-family: cursive;
+    -webkit-text-stroke: 1px white;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+#social-icons {
+    float: right;
+    margin: 5px;
+    padding: 1px;
+}
+
+#social-icons a img {
+    padding: 1px;
+    margin: 0px;
+}
+
+
+

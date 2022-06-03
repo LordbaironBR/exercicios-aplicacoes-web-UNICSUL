@@ -1,2 +1,5 @@
-# exercicios-aplicacoes-web-UNICSUL
-todos os exercícios que eu fiz nas aulas de aplicações web na graduação da UNICSUL
+Todos esses exercícios foram feitos por mim
+
+pode visualizar os sites no link a seguir (provavelmente estão no ar)
+
+http://chato-d-mais.42web.io/

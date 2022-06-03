@@ -1,0 +1,199 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: Apple Chancery, cursive;
+    font-size: 15px;
+
+}
+
+
+.nav{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    font-size: 20px;
+    text-align: center;
+    align-items: center; /* essa porcaria não ta indo, então vai ficar no canto mesmo */
+}
+
+.nav li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+.nav li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.nav li a:hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.nav li  ul{
+    position:absolute;
+    top:35px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.nav li:hover ul, .nav li.over ul{display:block;}
+
+.nav li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+#img-01 {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+}
+
+#sobre-nos {
+    position: absolute;
+    top: 200px;
+    left: 7px;
+    text-align: left;
+    max-width: 550px;
+}
+
+#sobre-nos header {
+    text-align: center;
+}
+
+#administracao {
+    position: absolute;
+    top: 200px;
+    right: 7px;
+    text-align: right;
+    max-width: 550px;
+}
+#administracao header {
+    text-align: center;
+
+}
+
+#produtos {
+    position:absolute;
+    top: 500px;
+    left: 7px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#produtos header {
+    text-align: center;
+}
+
+.produto {
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    font-size: 15px;
+
+
+}
+
+.produto li{
+    position:relative;
+    border-right:1px solid #c0c0c0;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.produto li a{color:#333; text-decoration: none; display:block;} /* esse "text-decoration" é redundante pois já possui um no ".produto li" que abrange todas "li" com o parametro <a> ou nào */
+
+.produto li a:hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.produto li  ul{
+    position:absolute;
+    top:35px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+
+.produto li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+.indisponivel {
+    color:#333; text-decoration: none; display:block;
+}
+.indisponivel :hover {
+    background: #333;
+    color: #ff0000;
+    -moz-box-shadow: 0 3px 10px 0 #5df7fc;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #ff0000;
+}
+
+#titulo-slide {
+    position: absolute;
+    top: 70px;
+    left: 320px;
+    right: 7px;
+
+}
+
+#slider {
+    position: absolute;
+    top: 120px;
+}
+
+#my-slider {
+    position: absolute;
+    top: 120px;
+}
+#call-to-action {
+    position: absolute;
+    bottom: -30px;
+    text-decoration: none;
+    font-size: 20px;
+    left: 50px;
+}
+
+#roda-pe {
+    position: absolute;
+    left: 7px;
+    bottom: -100px;
+}
+
+#titulo {
+    position: absolute;
+    top: 150px;
+    left: 7px;
+}
+
+#tabela {
+    position: absolute;
+    top: 185px;
+    left: 7px;
+}
+
+/*configurações da tabela de bairros e regiões*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-ft9w{background-color:#9aff99;text-align:left;vertical-align:middle}
+.tg .tg-6bug{background-color:#dae8fc;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-hjhm{background-color:#dae8fc;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-0g60{background-color:#dae8fc;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-n863{background-color:#96fffb;text-align:left;vertical-align:middle}
+.tg .tg-oq7k{background-color:#f8a102;text-align:left;vertical-align:middle}
+.tg .tg-onat{background-color:#fe0000;text-align:left;vertical-align:middle}
